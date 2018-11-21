@@ -6,8 +6,7 @@ sql.open("./botslist.sqlite")
 const helpers = JSON.parse(fs.readFileSync("./helpers.json", "utf8"));
 
 
-let prefix = '$',
-    prefix2 = '$'
+let prefix2 = '$'
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
